@@ -1,82 +1,104 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Produit A",
-      "price": 20,
-      "stock": 100
+      "id": 1,
+      "titre": "Voile en mousseline élégante",
+      "prix": 8500,
+      "img": "/uploads/voile-mousseline.jpg",
+      "description": "Voile léger et fluide en mousseline, idéal pour les occasions spéciales.",
+      "sizes": ["Standard"],
+      "colors": ["Blanc", "Beige", "Noir"],
+      "category": "voile"
     },
     {
-      "id": "9a67",
-      "name": "Produit A",
-      "price": 20,
-      "stock": 100
+      "id": 2,
+      "titre": "Voile en soie premium",
+      "prix": 12500,
+      "img": "/uploads/voile-soie.jpg",
+      "description": "Voile luxueux en soie douce, parfait pour un look raffiné.",
+      "sizes": ["Standard"],
+      "colors": ["Rose poudré", "Gris perle", "Bleu ciel"],
+      "category": "voile"
     },
     {
-      "id": "75ea",
-      "name": "Voile jersey",
-      "price": 2000,
-      "stock": 100
+      "id": 3,
+      "titre": "Escarpins en cuir verni",
+      "prix": 19500,
+      "img": "/uploads/chaussures-cuir.jpg",
+      "description": "Chaussures élégantes en cuir verni avec talon de 7 cm.",
+      "sizes": ["37", "38", "39", "40", "41"],
+      "colors": ["Noir", "Rouge"],
+      "category": "chaussures"
     },
     {
-      "id": "3016",
-      "name": "Lafaya",
-      "price": 2000,
-      "stock": 100
+      "id": 4,
+      "titre": "Baskets blanches confort",
+      "prix": 15000,
+      "img": "/uploads/baskets-blanches.jpg",
+      "description": "Baskets légères et confortables pour un usage quotidien.",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "colors": ["Blanc", "Rose"],
+      "category": "chaussures"
     },
     {
-      "id": "ece0",
-      "name": "Lafaya",
-      "price": 2000,
-      "stock": 100
+      "id": 5,
+      "titre": "Montre bracelet dorée",
+      "prix": 11000,
+      "img": "/uploads/montre-doree.jpg",
+      "description": "Montre élégante au design minimaliste avec bracelet doré.",
+      "sizes": [],
+      "colors": ["Doré"],
+      "category": "accessoire"
     },
     {
-      "id": "962d",
-      "name": "Brodée",
-      "price": 2000,
-      "stock": 100
+      "id": 6,
+      "titre": "Collier perles fines",
+      "prix": 7500,
+      "img": "/uploads/collier-perles.jpg",
+      "description": "Collier chic orné de perles fines, parfait pour compléter une tenue.",
+      "sizes": [],
+      "colors": ["Blanc", "Or"],
+      "category": "accessoire"
     },
     {
-      "id": "a33c",
-      "name": "Sac Dior",
-      "price": 2000,
-      "stock": 100
+      "id": 7,
+      "titre": "Robe longue en satin",
+      "prix": 28000,
+      "img": "/uploads/robe-satin.jpg",
+      "description": "Robe élégante en satin fluide, parfaite pour les soirées ou cérémonies.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Rouge bordeaux", "Bleu nuit", "Noir"],
+      "category": "vetement"
     },
     {
-      "id": "4524",
-      "name": "Boucle d'oreils",
-      "price": 2000,
-      "stock": 100
+      "id": 8,
+      "titre": "Chemise femme en lin",
+      "prix": 13500,
+      "img": "/uploads/chemise-lin.jpg",
+      "description": "Chemise légère et respirante en lin naturel, style décontracté chic.",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Beige", "Blanc cassé", "Vert sauge"],
+      "category": "vetement"
     },
     {
-      "id": "2625",
-      "name": "Parure en Or",
-      "price": 2000,
-      "stock": 100
+      "id": 9,
+      "titre": "Sac à main en cuir véritable",
+      "prix": 32000,
+      "img": "/uploads/sac-cuir.jpg",
+      "description": "Sac à main élégant en cuir véritable, spacieux et durable.",
+      "sizes": [],
+      "colors": ["Noir", "Marron", "Rouge brique"],
+      "category": "sac"
     },
     {
-      "id": "bb01",
-      "name": "Parure en Or",
-      "price": 2000000,
-      "stock": 100
-    },
-    {
-      "id": "7d48",
-      "name": "Brodée Autriche",
-      "price": 20000,
-      "stock": 30
-    },
-    {
-      "id": "95c1",
-      "name": "Cotonade",
-      "price": 20000,
-      "stock": 40
-    },
-    {
-      "id": "5ea5",
-      "name": "Sac en cuir",
-      "price": 10000,
-      "stock": 30
+      "id": 10,
+      "titre": "Sac bandoulière tressé",
+      "prix": 15500,
+      "img": "/public/accesoire/sac 1.jpg",
+      "description": "Petit sac tressé avec bandoulière ajustable, parfait pour l’été.",
+      "sizes": [],
+      "colors": ["Beige", "Marron clair"],
+      "category": "sac"
     }
   ],
   "clients": [
