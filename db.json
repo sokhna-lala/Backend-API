@@ -1,170 +1,247 @@
 {
   "products": [
     {
-      "id": 1,
-      "titre": "Voile en mousseline élégante",
-      "prix": 8500,
-      "img": "/uploads/voile-mousseline.jpg",
-      "description": "Voile léger et fluide en mousseline, idéal pour les occasions spéciales.",
-      "sizes": ["Standard"],
-      "colors": ["Blanc", "Beige", "Noir"],
-      "category": "voile"
-    },
-    {
-      "id": 2,
-      "titre": "Voile en soie premium",
-      "prix": 12500,
-      "img": "/uploads/voile-soie.jpg",
-      "description": "Voile luxueux en soie douce, parfait pour un look raffiné.",
-      "sizes": ["Standard"],
-      "colors": ["Rose poudré", "Gris perle", "Bleu ciel"],
-      "category": "voile"
-    },
-    {
-      "id": 3,
-      "titre": "Escarpins en cuir verni",
-      "prix": 19500,
-      "img": "/uploads/chaussures-cuir.jpg",
-      "description": "Chaussures élégantes en cuir verni avec talon de 7 cm.",
-      "sizes": ["37", "38", "39", "40", "41"],
-      "colors": ["Noir", "Rouge"],
-      "category": "chaussures"
-    },
-    {
-      "id": 4,
-      "titre": "Baskets blanches confort",
-      "prix": 15000,
-      "img": "/uploads/baskets-blanches.jpg",
-      "description": "Baskets légères et confortables pour un usage quotidien.",
-      "sizes": ["36", "37", "38", "39", "40", "41"],
-      "colors": ["Blanc", "Rose"],
-      "category": "chaussures"
-    },
-    {
-      "id": 5,
-      "titre": "Montre bracelet dorée",
-      "prix": 11000,
-      "img": "/uploads/montre-doree.jpg",
-      "description": "Montre élégante au design minimaliste avec bracelet doré.",
-      "sizes": [],
-      "colors": ["Doré"],
-      "category": "accessoire"
-    },
-    {
-      "id": 6,
-      "titre": "Collier perles fines",
-      "prix": 7500,
-      "img": "/uploads/collier-perles.jpg",
-      "description": "Collier chic orné de perles fines, parfait pour compléter une tenue.",
-      "sizes": [],
-      "colors": ["Blanc", "Or"],
-      "category": "accessoire"
-    },
-    {
-      "id": 7,
-      "titre": "Robe longue en satin",
-      "prix": 28000,
-      "img": "/uploads/robe-satin.jpg",
-      "description": "Robe élégante en satin fluide, parfaite pour les soirées ou cérémonies.",
+      "id": "robe-elegante",
+      "img": "Robe/5.jpeg",
+      "titre": "Robe élégante",
+      "prix": "25 000 FCFA",
+      "category": "vetements",
+      "description": "Une robe élégante parfaite pour les occasions spéciales.",
       "sizes": ["S", "M", "L", "XL"],
-      "colors": ["Rouge bordeaux", "Bleu nuit", "Noir"],
-      "category": "vetement"
+      "colors": ["Noir", "Rouge", "Bleu"]
     },
     {
-      "id": 8,
-      "titre": "Chemise femme en lin",
-      "prix": 13500,
-      "img": "/uploads/chemise-lin.jpg",
-      "description": "Chemise légère et respirante en lin naturel, style décontracté chic.",
-      "sizes": ["S", "M", "L"],
-      "colors": ["Beige", "Blanc cassé", "Vert sauge"],
-      "category": "vetement"
+      "id": "bourka",
+      "img": "Robe/bourka.jpeg",
+      "titre": "Bourka",
+      "prix": "15 000 FCFA",
+      "category": "vetements",
+      "description": "Une bourka traditionnelle pour un look élégant et modeste.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Noir", "Blanc"]
     },
     {
-      "id": 9,
-      "titre": "Sac à main en cuir véritable",
-      "prix": 32000,
-      "img": "/uploads/sac-cuir.jpg",
-      "description": "Sac à main élégant en cuir véritable, spacieux et durable.",
+      "id": "robe-laila",
+      "img": "Robe/robe 6.jpeg",
+      "titre": "robe laila",
+      "prix": "18 000 FCFA",
+      "category": "vetements",
+      "description": "Une robe élégante et confortable pour toutes occasions.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Bleu", "Rouge", "Noir"]
+    },
+    {
+      "id": "abaya-nour",
+      "img": "Robe/robe2.jpeg",
+      "titre": "abaya nour",
+      "prix": "35 000 FCFA",
+      "category": "vetements",
+      "description": "Une abaya élégante et moderne pour un style raffiné.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Noir", "Beige", "Gris"]
+    },
+    {
+      "id": "jupe-ete",
+      "img": "Robe/robe 8.jpg",
+      "titre": "Jupe d'eté",
+      "prix": "35 000 FCFA",
+      "category": "vetements",
+      "description": "Une jupe légère et élégante parfaite pour l'été.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Bleu", "Rouge", "Blanc"]
+    },
+    {
+      "id": "ensemble-salope",
+      "img": "Robe/robe 9.jpg",
+      "titre": "Ensemble salope",
+      "prix": "35 000 FCFA",
+      "category": "vetements",
+      "description": "Un ensemble chic et moderne pour un look audacieux.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Noir", "Rouge", "Bleu"]
+    },
+    {
+      "id": "ensemble-sarah",
+      "img": "Robe/robe2.jpeg",
+      "titre": "Ensemble sarah",
+      "prix": "35 000 FCFA",
+      "category": "vetements",
+      "description": "Un ensemble élégant et confortable pour toutes occasions.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Bleu", "Rouge", "Noir"]
+    },
+    {
+      "id": "ensemble-jupe-plissee",
+      "img": "Robe/robe 10.jpg",
+      "titre": "Ensemble Jupe plissée plus chemise",
+      "prix": "35 000 FCFA",
+      "category": "vetements",
+      "description": "Un ensemble avec jupe plissée et chemise, parfait pour un look élégant.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Bleu", "Rouge", "Noir"]
+    },
+    {
+      "id": "ensemble-pantalon-cumeno",
+      "img": "Robe/robe 15.jpg",
+      "titre": "Ensemble pantalon cumeno",
+      "prix": "35 000 FCFA",
+      "category": "vetements",
+      "description": "Un ensemble avec pantalon cumeno, idéal pour un style décontracté et élégant.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Bleu", "Rouge", "Noir"]
+    },
+    {
+      "id": "ensemble-jupe-cumeno-marron",
+      "img": "Robe/robe 16.jpg",
+      "titre": "Ensemble jupe cumeno Marron",
+      "prix": "15 000 FCFA",
+      "category": "vetements",
+      "description": "Un ensemble avec jupe cumeno marron, style élégant et confortable.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Marron"]
+    },
+    {
+      "id": "robe-large-jaune",
+      "img": "Robe/robe 17.jpg",
+      "titre": "Robe large Jaune moutarde",
+      "prix": "15 000 FCFA",
+      "category": "vetements",
+      "description": "Une robe large de couleur jaune moutarde, parfaite pour un look décontracté.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Jaune"]
+    },
+    {
+      "id": "charry-vert",
+      "img": "Robe/robe 18.jpg",
+      "titre": "Charry vert",
+      "prix": "15 000 FCFA",
+      "category": "vetements",
+      "description": "Un charry vert, idéal pour les sorties.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Vert"]
+    },
+    {
+      "id": "ensemble-salope-2",
+      "img": "Robe/robe 9.jpg",
+      "titre": "Ensemble salope",
+      "prix": "35 000 FCFA",
+      "category": "vetements",
+      "description": "Un ensemble chic et moderne pour un look audacieux.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Noir", "Rouge", "Bleu"]
+    },
+    {
+      "id": "chaussure-1",
+      "img": "Chaussure/Chaussure 1.jpg",
+      "titre": "Chaussure 1",
+      "prix": "20 000 FCFA",
+      "category": "chaussures",
+      "description": "Chaussures confortables pour tous les jours.",
+      "sizes": ["36", "37", "38", "39", "40", "41"],
+      "colors": ["Noir", "Blanc", "Marron"]
+    },
+    {
+      "id": "lunette-1",
+      "img": "Accessoire/lunette 1.jpg",
+      "titre": "Lunette 1",
+      "prix": "5 000 FCFA",
+      "category": "accessoires",
+      "description": "Lunettes de soleil élégantes pour un style moderne.",
       "sizes": [],
-      "colors": ["Noir", "Marron", "Rouge brique"],
-      "category": "sac"
+      "colors": ["Noir", "Bleu", "Rouge"]
     },
     {
-      "id": 10,
-      "titre": "Sac bandoulière tressé",
-      "prix": 15500,
-      "img": "/public/accesoire/sac 1.jpg",
-      "description": "Petit sac tressé avec bandoulière ajustable, parfait pour l’été.",
-      "sizes": [],
-      "colors": ["Beige", "Marron clair"],
-      "category": "sac"
+      "id": "voile-1",
+      "img": "Voiles/Voile 1.jpg",
+      "titre": "Voile 1",
+      "prix": "2 000 FCFA",
+      "category": "voiles"
+    },
+    {
+      "id": "tissu-brode-autriche",
+      "img": "Tissus/Brodé autriche.jpeg",
+      "titre": "Brodé autriche",
+      "prix": "30 000 FCFA",
+      "category": "tissus"
+    },
+    {
+      "id": "boucle-14",
+      "img": "Bijoux/BOUCLE 14.jpeg",
+      "titre": "Boucle 14",
+      "prix": "4 500 FCFA",
+      "category": "bijoux"
+    },
+    {
+      "id": "sac-dior",
+      "img": "Sac/sac dior.jpeg",
+      "titre": "Sac Dior",
+      "prix": "25 000 FCFA",
+      "category": "sacs"
+    },
+    {
+      "id": "cachemir-imprime",
+      "img": "Voile/Cachemir imprimé.jpeg",
+      "titre": "Cachemir imprimé",
+      "prix": "3 000 FCFA",
+      "category": "voiles"
     }
   ],
-  "clients": [
+  "users": [
     {
-      "id": "1",
-      "name": "Khady Fall",
-      "email": "fallkhady@gmail.com"
-    },
-
-    {
-      "id": "9504",
-      "name": "Fatima Diop",
-      "email": "diopfatima@gmail.com"
+      "name": "Admin User",
+      "email": "admin@lala-store.com",
+      "password": "admin123",
+      "role": "admin"
     },
     {
-      "id": "25d0",
-      "name": "Bineta Ciss",
-      "email": "cissbineta221@gmail.com"
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "user"
     },
     {
-      "id": "7b74",
-      "name": "Khadija Ndiaye",
-      "email": "ndiayekhadija@gmail.com"
-    },
-    {
-      "id": "6b2e",
-      "name": "Aicha Ba",
-      "email": "baaicha1@gmail.com"
-    },
-    {
-      "id": "4ae5",
-      "name": "Soumaya Diallo",
-      "email": "diallosoumaya33@gmail.com"
-    },
-    {
-      "id": "d617",
-      "name": "Oumou Kalsoum Sow",
-      "email": "sowoumou133@gmail.com"
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123",
+      "role": "user"
     }
   ],
   "orders": [
     {
-      "id": "1",
-      "clientId": 1,
-      "productId": 1,
-      "quantity": 2,
-      "date": "2025-10-15"
-    }
-  ],
-  "stock": [
-    {
-      "id": "1",
-      "productName": "Produit A",
-      "quantity": 100,
-      "location": "Entrepôt Principal"
+      "id": "order-001",
+      "user": "john@example.com",
+      "items": [
+        {
+          "id": "robe-elegante",
+          "titre": "Robe élégante",
+          "prix": "25 000 FCFA",
+          "qty": 1
+        },
+        {
+          "id": "lunette-1",
+          "titre": "Lunette 1",
+          "prix": "5 000 FCFA",
+          "qty": 2
+        }
+      ],
+      "total": "35 000 FCFA",
+      "status": "pending",
+      "date": "2024-01-15"
     },
     {
-      "id": "2",
-      "productName": "Voile jersey",
-      "quantity": 100,
-      "location": "Entrepôt Secondaire"
+      "id": "order-002",
+      "user": "jane@example.com",
+      "items": [
+        {
+          "id": "sac-dior",
+          "titre": "Sac Dior",
+          "prix": "25 000 FCFA",
+          "qty": 1
+        }
+      ],
+      "total": "25 000 FCFA",
+      "status": "shipped",
+      "date": "2024-01-20"
     }
-  ],
-  "stats": {
-    "totalSales": 40,
-    "totalProductsSold": 2,
-    "uniqueClients": 1
-  }
+  ]
 }
