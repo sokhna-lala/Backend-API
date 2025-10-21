@@ -6,7 +6,7 @@ const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
-const PORT = parseInt(process.env.PORT || "3001");
+const PORT = process.env.PORT || 3001;
 
 // CORS pour permettre les requêtes depuis React
 server.use(cors());
@@ -20,7 +20,7 @@ server.get("/health", (req, res) => {
 // Routes json-server
 server.use(router);
 
-server.listen(PORT, "0.0.0.0", () => {
+server.listen(PORT, () => {
   console.log(`🚀 JSON Server is running on port ${PORT}`);
   console.log(`📍 URL: http://localhost:${PORT}`);
 });
