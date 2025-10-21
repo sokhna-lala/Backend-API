@@ -1,15 +1,12 @@
-const jsonServer = require("json-server");
-const cors = require("cors");
-const path = require("path");
+import jsonServer from "json-server";
+import cors from "cors";
 
+// Création du serveur JSON Server
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
-// Utiliser le port fourni par Render ou 3001 en local
-const PORT = process.env.PORT || 3001;
-
-// Middleware CORS
+// Middleware CORS pour React
 server.use(cors());
 server.use(middlewares);
 
@@ -18,11 +15,14 @@ server.get("/health", (req, res) => {
   res.json({ status: "OK", timestamp: new Date().toISOString() });
 });
 
-// Routes de json-server
+// Routes JSON Server
 server.use(router);
 
-// ⚠️ La différence importante est ici :
+// ⚠️ PORT dynamique fourni par Render, converti en nombre
+const PORT: number = Number(process.env.PORT) || 3001;
+
+// Démarrage du serveur sur 0.0.0.0 pour qu'il soit accessible depuis Render
 server.listen(PORT, "0.0.0.0", () => {
   console.log(`🚀 JSON Server is running on port ${PORT}`);
-  console.log(`🌍 Accessible on: http://0.0.0.0:${PORT}`);
+  console.log(`🌍 Accessible depuis Render`);
 });
